@@ -1,0 +1,38 @@
+# node_modules/
+# .env
+# database.sqlite
+# server/config/serviceAccountKey.json
+# dist/
+# .DS_Store
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+client/.env
+server/.env
+
+# Database files
+database.sqlite
+*.sqlite
+
+# Firebase Admin credentials
+server/config/serviceAccountKey.json
+
+# Build files
+dist/
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache (if backend has Python)
+__pycache__/
+*.pyc
